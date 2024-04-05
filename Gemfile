@@ -8,7 +8,7 @@ gem 'asciidoctor'
 gem 'bump', require: false
 gem 'bundler', '>= 1.15.0', '< 3.0'
 gem 'memory_profiler', platform: :mri
-gem 'prism', '>= 0.24.0'
+gem 'prism', github: 'ruby/prism', branch: 'main'
 gem 'rake', '~> 13.0'
 gem 'rspec', '~> 3.7'
 gem 'rubocop-performance', '~> 1.21.0'
